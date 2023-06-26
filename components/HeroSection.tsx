@@ -53,7 +53,7 @@ const HeroSection = () => {
         >
           <HiArrowDown
             size={35}
-            className="animate-bounce text-or dark:text-teal-500"
+            className="cursor-pointer animate-bounce text-or dark:text-teal-500"
           />
         </Link>
       </div>

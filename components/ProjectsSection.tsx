@@ -18,7 +18,7 @@ const ProjectsSection = () => {
           return (
             <div key={idx}>
               <SlideUp offset="-300px 0px -300px 0px">
-                <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
+                <div className="flex flex-col border-4 shadow-xl animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12 border-or dark:border-teal-500 rounded-xl shadow-gray-800/50">
                   <div className="md:w-1/2">
                     <Link href={project.link}>
                       <Image
@@ -31,13 +31,13 @@ const ProjectsSection = () => {
                     </Link>
                   </div>
                   <div className="mt-8 md:w-1/2">
-                    <h1 className="mb-6 text-4xl font-bold font-DancingS">
+                    <h1 className="mb-6 text-4xl font-bold text-center font-DancingS">
                       {project.name}
                     </h1>
-                    <p className="mb-4 text-2xl leading-7 text-or dark:text-teal-500 font-DancingS">
+                    <p className="mb-4 text-2xl leading-7 text-center text-or dark:text-teal-500 font-DancingS">
                       {project.description}
                     </p>
-                    <div className="flex flex-row space-x-4 align-bottom">
+                    <div className="flex flex-row justify-center my-2 space-x-4 align-bottom">
                       <Link href={project.github} target="_blank">
                         <BsGithub
                           size={30}
