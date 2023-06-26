@@ -1,4 +1,4 @@
-"use ckient";
+"use client";
 import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
@@ -29,9 +29,9 @@ const HeroSection = () => {
             Je vis à Anglet dans les Pyrénées Atlantiques, et j'adore la
             création de projet web et mobile.
           </p>
-          {/* <Link
+          <Link
             to="projects"
-            className="px-6 py-3 font-semibold rounded shadow text-or dark:text-teal-500 font-DancingS bg-or dark:bg-teal-600 hover:bg-teal-700"
+            className="px-6 py-3 font-semibold text-white rounded-lg cursor-pointer shadow-gray-800 dark:text-white font-DancingS bg-or dark:bg-teal-600 "
             activeClass="active"
             spy={true}
             smooth={true}
@@ -39,8 +39,23 @@ const HeroSection = () => {
             duration={500}
           >
             Projets
-          </Link> */}
+          </Link>
         </div>
+      </div>
+      <div className="flex flex-row items-center justify-center text-center">
+        <Link
+          to="about"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
+          <HiArrowDown
+            size={35}
+            className="animate-bounce text-or dark:text-teal-500"
+          />
+        </Link>
       </div>
     </section>
   );
