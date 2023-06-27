@@ -1,9 +1,4 @@
 import React from "react";
-import {
-  AiOutlineGithub,
-  AiOutlineLinkedin,
-  AiOutlineMail,
-} from "react-icons/ai";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();

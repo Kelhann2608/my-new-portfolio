@@ -3,6 +3,11 @@ import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
 import { HiArrowDown } from "react-icons/hi";
+import {
+  AiOutlineGithub,
+  AiOutlineLinkedin,
+  AiOutlineMail,
+} from "react-icons/ai";
 
 const HeroSection = () => {
   return (
@@ -29,17 +34,41 @@ const HeroSection = () => {
             Je vis à Anglet dans les Pyrénées Atlantiques, et j'adore la
             création de projet web et mobile.
           </p>
-          <Link
-            to="projects"
-            className="px-6 py-3 font-semibold text-white rounded-lg cursor-pointer shadow-gray-800 dark:text-white font-DancingS bg-or dark:bg-teal-600 "
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Projets
-          </Link>
+          <div className="flex flex-row items-center justify-center mb-1 space-x-2">
+            <a
+              href="https://github.com/Kelhann2608"
+              aria-label="lien github"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <AiOutlineGithub
+                className="transition-transform cursor-pointer hover:-translate-y-1 text-or dark:text-teal-500"
+                size={30}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/bernardin-milhet-a590b1149/"
+              aria-label="lien linkedin"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <AiOutlineLinkedin
+                className="transition-transform cursor-pointer hover:-translate-y-1 text-or dark:text-teal-500"
+                size={30}
+              />
+            </a>
+            <a
+              href="mailto:bernardin2608@gmail.com"
+              aria-label="adresse email"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <AiOutlineMail
+                className="transition-transform cursor-pointer hover:-translate-y-1 text-or dark:text-teal-500"
+                size={30}
+              />
+            </a>
+          </div>
         </div>
       </div>
       <div className="flex flex-row items-center justify-center text-center">
