@@ -12,7 +12,7 @@ const AboutSection = () => {
 
         <div className="flex flex-col items-stretch justify-center space-y-10 align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2">
-            <h1 className="mb-6 text-2xl font-bold text-center underline font-DancingS md:text-left lg:text-4xl dark:text-gray-300 ">
+            <h1 className="mb-6 text-2xl font-bold text-center underline font-DancingS lg:text-4xl dark:text-gray-300 ">
               A propos de moi:
             </h1>
             <p className="mx-3 text-xl text-center dark:text-gray-300 font-DancingS lg:text-3xl">
