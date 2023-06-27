@@ -10,7 +10,7 @@ export const projects = [
   {
     name: "LLMWikiMusic",
     description:
-      "Projet de groupe sur le thème de la musique pour le premier hackathon(32heures)",
+      "Projet de groupe sur le thème de la musique pour le premier hackathon(32heures),via une API",
     image: "/LLMWikiMusicDesktop.jpg",
     github: "https://github.com/Kelhann2608/LLM_WikiMusic",
     link: "https://bast44trl.github.io/LLM_WikiMusic",
@@ -26,7 +26,7 @@ export const projects = [
   {
     name: "Vue-demo",
     description:
-      "Projet de test d'une landing page en Vue Js, qui m'a permis d'apprendre les bases",
+      "Projet de test d'une landing page en Vue Js, qui m'a permis d'apprendre les bases d'un nouveau framework",
     image: "/Vue-demo.jpg",
     github: "https://github.com/Kelhann2608/vue-demo",
     link: "https://kelhann2608.github.io/vue-demo/",

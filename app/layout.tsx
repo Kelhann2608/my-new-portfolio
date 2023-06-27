@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="relative flex flex-col min-h-screen dark:bg-gray-900">
+      <body className="relative flex flex-col min-h-screen dark:bg-gray-800">
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}

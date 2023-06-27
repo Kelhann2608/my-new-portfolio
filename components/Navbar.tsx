@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import { useTheme } from "next-themes";
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
@@ -38,7 +38,7 @@ export default function Navbar() {
   const normalLink = "";
   const [navbar, setNavbar] = useState(false);
   return (
-    <header className="fixed top-0 z-50 w-full px-4 mx-auto bg-gray-200 shadow sm:px-20 dark:bg-gray-900 dark:border-b dark:border-gray-600">
+    <header className="fixed top-0 z-50 w-full px-4 mx-auto bg-gray-200 shadow sm:px-20 dark:bg-gray-800 dark:border-b dark:border-gray-600">
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -51,7 +51,7 @@ export default function Navbar() {
             </Link>
             <div className="md:hidden">
               <button
-                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                className="p-2 rounded-md outline-none text-or dark:text-teal-500 focus:border-or focus:dark:border-teal-500 focus:border"
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
@@ -73,7 +73,7 @@ export default function Navbar() {
                     key={idx}
                     to={item.page}
                     className={
-                      "block lg:inline-block text-or hover:underline lg:text-4xl font-DancingS dark:text-teal-500 cursor-pointer"
+                      "block lg:inline-block text-or hover:underline lg:text-4xl font-DancingS dark:text-teal-500 cursor-pointer text-2xl text-center"
                     }
                     activeClass="active"
                     spy={true}
