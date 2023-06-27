@@ -10,7 +10,7 @@ const AboutSection = () => {
           <hr className="w-6 h-1 mx-auto my-4 border-0 rounded bg-or dark:bg-teal-500" />
         </h1>
 
-        <div className="flex flex-col items-stretch justify-center space-y-10 align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
+        <div className="flex flex-col items-stretch justify-center space-y-10 align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row">
           <div className="md:w-1/2">
             <h1 className="mb-6 text-2xl font-bold text-center underline font-DancingS lg:text-4xl dark:text-gray-300 ">
               A propos de moi:
