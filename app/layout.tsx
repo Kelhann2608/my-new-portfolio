@@ -4,11 +4,6 @@ import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-export const metadata = {
-  title: "Bernardin Milhet Portfolio",
-  description: "Mon CV en ligne, représentant mes compétences et savoirs faire",
-};
-
 export default function RootLayout({
   children,
 }: {

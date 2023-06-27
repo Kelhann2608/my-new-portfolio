@@ -3,6 +3,12 @@ import HeroSection from "@/components/HeroSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import AboutSection from "@/components/AboutSection";
 import SkillsSection from "@/components/SkillsSection";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Bernardin Milhet Portfolio",
+  description: "Mon CV en ligne, représentant mes compétences et savoirs faire",
+};
 
 export default function Home() {
   return (
