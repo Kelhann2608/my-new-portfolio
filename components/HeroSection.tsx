@@ -43,7 +43,7 @@ const HeroSection = () => {
             >
               <AiOutlineGithub
                 className="transition-transform cursor-pointer hover:-translate-y-1 text-or dark:text-teal-500"
-                size={30}
+                size={50}
               />
             </a>
             <a
@@ -54,7 +54,7 @@ const HeroSection = () => {
             >
               <AiOutlineLinkedin
                 className="transition-transform cursor-pointer hover:-translate-y-1 text-or dark:text-teal-500"
-                size={30}
+                size={50}
               />
             </a>
             <a
@@ -65,7 +65,7 @@ const HeroSection = () => {
             >
               <AiOutlineMail
                 className="transition-transform cursor-pointer hover:-translate-y-1 text-or dark:text-teal-500"
-                size={30}
+                size={50}
               />
             </a>
           </div>
