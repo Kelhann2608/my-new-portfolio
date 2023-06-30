@@ -26,7 +26,7 @@ export const projects = [
   {
     name: "Vue-demo",
     description:
-      "Projet de test d'une landing page en Vue Js, qui m'a permis d'apprendre les bases d'un nouveau framework",
+      "Projet de test d'une page Web en Vue Js, qui m'a permis d'apprendre les bases d'un nouveau framework",
     image: "/Vue-demo.jpg",
     github: "https://github.com/Kelhann2608/vue-demo",
     link: "https://kelhann2608.github.io/vue-demo/",
