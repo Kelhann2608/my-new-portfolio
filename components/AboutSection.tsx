@@ -4,7 +4,7 @@ import Image from "next/image";
 const AboutSection = () => {
   return (
     <section id="about">
-      <div className="pb-12 my-12 md:pt-16 md:pb-48">
+      <div className="pb-12 my-8 md:mt-36 ">
         <h1 className="text-4xl font-bold text-center font-DancingS text-or dark:text-teal-500">
           A Propos
           <hr className="w-6 h-1 mx-auto my-4 border-0 rounded bg-or dark:bg-teal-500" />

@@ -7,7 +7,7 @@ interface Props {
   // any props that come into the component
 }
 
-export default function SlideUp({ children, offset = "0px" }: Props) {
+const SlideUp = ({ children, offset = "0px" }: Props) => {
   const ref = useRef(null);
 
   useEffect(() => {
@@ -33,4 +33,6 @@ export default function SlideUp({ children, offset = "0px" }: Props) {
       {children}
     </div>
   );
-}
+};
+
+export default SlideUp;

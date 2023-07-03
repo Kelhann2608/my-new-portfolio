@@ -71,21 +71,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row items-center justify-center text-center">
-        <Link
-          to="about"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-        >
-          <HiArrowDown
-            size={35}
-            className="cursor-pointer animate-bounce text-or dark:text-teal-500"
-          />
-        </Link>
-      </div>
     </section>
   );
 };
