@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "Mon CV en ligne, représentant mes compétences et savoirs faire",
 };
 
-export default function Home() {
+const Home = () => {
   return (
     <main className="max-w-3xl px-4 mx-auto sm:px-6 md:max-w-5xl">
       <HeroSection />
@@ -19,4 +19,6 @@ export default function Home() {
       <ProjectsSection />
     </main>
   );
-}
+};
+
+export default Home;

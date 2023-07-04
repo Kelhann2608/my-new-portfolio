@@ -4,11 +4,7 @@ import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
       <body className="relative flex flex-col min-h-screen dark:bg-gray-800">
@@ -20,4 +16,6 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
