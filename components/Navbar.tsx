@@ -32,9 +32,6 @@ const NAV_ITEMS: Array<NavItem> = [
 const Navbar = () => {
   const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
-  const pathname = usePathname();
-  const activeLink = "underline";
-  const normalLink = "";
   const [navbar, setNavbar] = useState(false);
   return (
     <header className="fixed top-0 z-50 w-full px-4 mx-auto bg-gray-200 shadow sm:px-20 dark:bg-gray-800 dark:border-b dark:border-gray-600">

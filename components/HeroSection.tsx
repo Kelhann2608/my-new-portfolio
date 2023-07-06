@@ -15,6 +15,8 @@ const HeroSection = () => {
           <Image
             src="/Avatar2.png"
             alt="avatar"
+            placeholder="blur"
+            blurDataURL={"/Avatar2.png"}
             width={325}
             height={325}
             className="rounded-full shadow-2xl "
