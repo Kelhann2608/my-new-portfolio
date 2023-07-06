@@ -42,8 +42,8 @@ const Navbar = () => {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link to="home">
-              <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold cursor-pointer font-DancingS dark:text-teal-500 lg:text-3xl text-or">
+              <div className="container flex items-center space-x-2 ">
+                <h2 className="text-2xl font-bold cursor-pointer font-DancingS dark:text-teal-500 lg:text-3xl text-or ">
                   BM
                 </h2>
               </div>
@@ -88,16 +88,16 @@ const Navbar = () => {
               {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}
-                  className="p-2 bg-slate-100 rounded-xl"
+                  className="p-2 border-2 border-teal-500 bg-slate-100 rounded-xl"
                 >
-                  <RiSunLine size={25} color="black" />
+                  <RiSunLine size={25} className="text-teal-500" />
                 </button>
               ) : (
                 <button
                   onClick={() => setTheme("dark")}
-                  className="p-2 bg-slate-100 rounded-xl"
+                  className="p-2 border-2 bg-slate-100 rounded-xl border-or"
                 >
-                  <RiMoonFill size={25} />
+                  <RiMoonFill size={25} className="text-or" />
                 </button>
               )}
             </div>
