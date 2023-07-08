@@ -1,6 +1,5 @@
 import { useTheme } from "next-themes";
 import React, { useState } from "react";
-import { usePathname } from "next/navigation";
 import { Link } from "react-scroll/modules";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 import { RiMoonFill, RiSunLine } from "react-icons/ri";
