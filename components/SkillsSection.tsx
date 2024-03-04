@@ -24,7 +24,7 @@ const SkillsSection = () => {
           <hr className="w-6 h-1 mx-auto my-4 border-0 rounded bg-or dark:bg-teal-500" />
         </h1>
         <div className="text-center">
-          <h1 className="mb-6 text-2xl font-bold underline font-DancingS">
+          <h1 className="mb-6 text-2xl font-bold underline font-DancingS lg:text-3xl">
             Langages:
           </h1>
           <div className="z-10 grid flex-wrap justify-center grid-cols-1 md:grid-cols-3 md:justify-start">
@@ -41,10 +41,10 @@ const SkillsSection = () => {
           </div>
         </div>
         <div className="mt-8 text-center">
-          <h1 className="mb-6 text-2xl font-bold underline font-DancingS">
+          <h1 className="mb-6 text-2xl font-bold underline font-DancingS lg:text-3xl">
             Savoir faire:
           </h1>
-          <ul className="flex flex-col">
+          <ul className="flex flex-col font-DancingS text-xl lg:text-2xl">
             <li>Concevoir une application web</li>
             <li>Recueillir et analyser les besoins client</li>
             <li>Concevoir et gérer un projet</li>
@@ -53,10 +53,10 @@ const SkillsSection = () => {
           </ul>
         </div>
         <div className="mt-8 text-center">
-          <h1 className="mb-6 text-2xl font-bold underline font-DancingS">
+          <h1 className="mb-6 text-2xl font-bold underline font-DancingS lg:text-3xl">
             Savoir être:
           </h1>
-          <ul className="flex flex-col">
+          <ul className="flex flex-col font-DancingS text-xl lg:text-2xl">
             <li>Travailler en équipe</li>
             <li>Organiser son travail selon les priorités et les objectifs</li>
             <li>Faire preuve de leadership</li>

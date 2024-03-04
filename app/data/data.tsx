@@ -2,7 +2,7 @@ export const projects = [
   {
     name: "Blind Crash Test",
     description:
-      "Projet de Blind test musical avec la possibilité de jouer avec ses propres playlists grâce à l'API Deezer",
+      "Projet de groupe, de Blind test musical avec la possibilité de jouer avec ses propres playlists grâce à l'API Deezer",
     image: "/BlindCrashTestDesktop.jpg",
     github: "https://github.com/Kelhann2608/Blind-Crash-Test",
     link: "https://marie5060.github.io/Blind-Crash-Test/",
