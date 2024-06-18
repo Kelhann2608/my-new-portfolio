@@ -6,7 +6,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Bernardin Milhet Portfolio",
-  description: "Mon CV en ligne, représentant mes compétences et savoirs faire",
+  description: "Mon CV en ligne, représentant mes compétences et savoirs faire en tant que développeur web",
 };
 
 const Home = () => {
