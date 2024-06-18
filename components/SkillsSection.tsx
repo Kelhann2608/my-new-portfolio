@@ -45,7 +45,6 @@ const SkillsSection = () => {
             <li>Recueillir et analyser les besoins client</li>
             <li>Concevoir et gérer un projet</li>
             <li>Méthode Agile</li>
-            <li>Réaliser un diagnostic technique</li>
           </ul>
         </div>
         <div className="mt-8 text-center">
