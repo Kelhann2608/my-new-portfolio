@@ -15,7 +15,7 @@ const AboutSection = () => {
               A propos de moi:
             </h1>
             <p className="mx-3 text-xl text-center dark:text-gray-300 font-DancingS lg:text-2xl">
-              Bonjour, mon nom est <span>Bernardin Milhet</span> et je suis fan
+              Bonjour, je suis fan
               de technologies depuis mon plus jeune âge, j'avais pour habitude
               de démonter différents objets pour comprendre leur fonctionnement,
               à l'âge adulte, j'ai décidé de faire de même avec des ordinateurs.
