@@ -4,13 +4,9 @@ const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "Javascript" },
-  { skill: "Typescript" },
   { skill: "React" },
-  { skill: "Next.js" },
   { skill: "Astro.js" },
-  { skill: "Vue.js" },
   { skill: "Tailwind CSS" },
-  { skill: "Sass" },
   { skill: "Github" },
   { skill: "Git" },
 ];
@@ -44,7 +40,7 @@ const SkillsSection = () => {
           <h1 className="mb-6 text-2xl font-bold underline font-DancingS lg:text-3xl">
             Savoir faire:
           </h1>
-          <ul className="flex flex-col font-DancingS text-xl lg:text-2xl">
+          <ul className="flex flex-col text-xl font-DancingS lg:text-2xl">
             <li>Concevoir une application web</li>
             <li>Recueillir et analyser les besoins client</li>
             <li>Concevoir et gérer un projet</li>
@@ -56,7 +52,7 @@ const SkillsSection = () => {
           <h1 className="mb-6 text-2xl font-bold underline font-DancingS lg:text-3xl">
             Savoir être:
           </h1>
-          <ul className="flex flex-col font-DancingS text-xl lg:text-2xl">
+          <ul className="flex flex-col text-xl font-DancingS lg:text-2xl">
             <li>Travailler en équipe</li>
             <li>Organiser son travail selon les priorités et les objectifs</li>
             <li>Faire preuve de leadership</li>
